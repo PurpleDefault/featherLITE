@@ -1,0 +1,9 @@
+#mob_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  img {
+    height: 4.75rem;
+    padding: 1.25rem;
+  }
+}
