@@ -11,19 +11,24 @@
     flex-grow: 1;
     border: 1px solid lightgrey;
     border-right: none;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    padding: 1rem;
-    border-radius: 0px 0px 0px 0px;
+    padding: 1rem 1.5rem;
+    border-radius: 15px 0px 0px 15px;
   }
   div {
     background: #eaafc8;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 15px 15px 0px;
   }
   img {
     padding: 0.75rem 1.5rem;
     height: 2.75rem;
   }
+}
+
+#note_search:focus {
+  outline: 0;
+  border: 2.75px solid #eaafc8;
 }
 
 main {
