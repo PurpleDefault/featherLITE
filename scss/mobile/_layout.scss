@@ -2,6 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  img {
+    cursor: pointer;
+  }
+}
+
+#search-add-menu {
+  display: flex;
+  flex-direction: column;
 }
 
 #search {
@@ -19,6 +27,11 @@
   div {
     background: #eaafc8;
     border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    &:hover {
+      background: #D97EA4;
+    }
   }
   img {
     padding: 0.75rem 1.5rem;
@@ -31,14 +44,33 @@
   border: 2.75px solid #eaafc8;
 }
 
+#new_note {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  border-radius: 15px 15px;
+  border: 1px solid lightgrey;
+  padding: 1rem 1.5rem;
+  h2 {
+    margin: auto;
+    font-size: 1.75rem;
+    flex-grow: 1;
+  }
+  img {
+    height: 2.75rem;
+    cursor: pointer;
+  }
+}
+
 main {
   margin: auto;
   margin-top: 3rem;
   width: 90%;
-  label {
-    display: block;
-    color: lightgrey;
-    font-weight: 700;
-    margin-top: 0.5rem;
-  }
+}
+
+label {
+  display: block;
+  color: lightgrey;
+  font-weight: 700;
+  margin-top: 0.5rem;
 }
